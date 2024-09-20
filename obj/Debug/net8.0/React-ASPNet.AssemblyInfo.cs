@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("React-ASPNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc6eea3bd1954bcf57a83fe2e1a84431039fb0b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90165bd8af5ad704bc1c674fa8299d8ad588ced5")]
 [assembly: System.Reflection.AssemblyProductAttribute("React-ASPNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("React-ASPNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

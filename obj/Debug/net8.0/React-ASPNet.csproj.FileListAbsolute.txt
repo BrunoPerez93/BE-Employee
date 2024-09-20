@@ -271,3 +271,5 @@ C:\Bruno\C Sharp\React-ASPNet\React-ASP.Net\obj\Debug\net8.0\React-ASPNet.pdb
 C:\Bruno\C Sharp\React-ASPNet\React-ASP.Net\obj\Debug\net8.0\React-ASPNet.genruntimeconfig.cache
 C:\Bruno\C Sharp\React-ASPNet\React-ASP.Net\obj\Debug\net8.0\ref\React-ASPNet.dll
 C:\Bruno\C Sharp\React-ASPNet\React-ASP.Net\obj\Debug\net8.0\React-ASPNet.sourcelink.json
+C:\Bruno\C Sharp\React-ASPNet\React-ASP.Net\bin\Debug\net8.0\DotNetEnv.dll
+C:\Bruno\C Sharp\React-ASPNet\React-ASP.Net\bin\Debug\net8.0\Sprache.dll

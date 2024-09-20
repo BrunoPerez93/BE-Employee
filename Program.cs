@@ -1,5 +1,6 @@
 using React_ASPNet.Models;
 using Microsoft.EntityFrameworkCore;
+using DotNetEnv;
 
 namespace React_ASPNet
 {
@@ -7,6 +8,8 @@ namespace React_ASPNet
     {
         public static void Main(string[] args)
         {
+            Env.Load();
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -16,9 +19,11 @@ namespace React_ASPNet
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            string connectionString = Environment.GetEnvironmentVariable("SQLSTRING");
+
             builder.Services.AddDbContext<ReactAspNetContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("SQLString"));
+                options.UseSqlServer(connectionString);
             });
 
             builder.Services.AddCors(options =>
